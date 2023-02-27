@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ADAM:Two is a Bunch</title>
+</head>
+
+<!--
+<body>
+    <scatter-plot dataLoader="getValidData"></scatter-plot>
+    <br>
+    <scatter-plot dataLoader="getInvalidData"></scatter-plot>
+    <br>
+    <scatter-plot dataLoader="getAnotherValidData"></scatter-plot>
+    <br>
+    <scatter-plot dataLoader="syncFn"></scatter-plot>
+    <br>
+    <scatter-plot></scatter-plot>
+
+</body>
+-->
+<html>
+
+<head>
+    <title>Linear Regression</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+    </script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+</head>
+
+<body>
+    <div id="container" style="width: 550px; height: 400px; margin: 0 auto"></div>
+    <script language="JavaScript">
+        $(document).ready(function() {
+            var title = {
+                text: 'Scatter plot with regression line'
+            };
+            //configuring x-axis
+            var xAxis = {
+                min: -0.5,
+                max: 5.5
+            };
+            //configuring y-axis 
+            var yAxis = {
+                min: 0
+            };
+            var series = [{
+                    type: 'line',
+                    name: 'Regression Line',
+                    data: [
+                        [0, 1.11],
+                        [5, 4.51]
+                    ],
+                    marker: {
+                        enabled: false
+                    },
+                    states: {
+                        hover: {
+                            lineWidth: 0
+                        }
+                    },
+                    enableMouseTracking: false
+                },
+                //configure the data to be displayed on the chart.
+                {
+                    type: 'scatter',
+                    name: 'Observations',
+                    data: [1, 1.5, 2.8, 3.5, 3.9, 4.2],
+                    marker: {
+                        radius: 4
+                    }
+                }
+            ];
+            var json = {};
+            json.title = title;
+            json.xAxis = xAxis;
+            json.yAxis = yAxis;
+            json.series = series;
+            $('#container').highcharts(json); //plotting config.
+        });
+    </script>
+</body>
+
+</html>
+
+    <script type="module" src="src/main.js"></script>
+</html>
