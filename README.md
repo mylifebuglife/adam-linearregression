@@ -68,5 +68,8 @@ $('#container').highcharts(json);
 
 Run the [index.html](/Users/debtanu/Desktop/THB/WS-2022:23/ADAM/LinearRegression/LR/index.html) and the results will be visualised in the form of scatter plot and Upon moving the mouse over single dots their respective coordinates should be displayed in a small popping up window.
 
+Direct Demo is available at : [LinearRegression_ScatterPlot](https://adam-two-is-a-bunch.github.io/linearregression/)
+
+
 
 
