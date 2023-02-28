@@ -5,6 +5,8 @@
 - **Debtanu Ganguly(2204026)**
 - Behnam Ahmadpour(2198220)
 
+Project Demo is available at : [LinearRegression_ScatterPlot](https://adam-two-is-a-bunch.github.io/linearregression/)
+
 ## How to run the project
 
 This project uses [Vite](https://vitejs.dev/)
