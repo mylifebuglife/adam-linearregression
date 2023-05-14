@@ -6,6 +6,7 @@
 
 Project Demo is available at : [LinearRegression_ScatterPlot](https://adam-two-is-a-bunch.github.io/linearregression/)
 
+# Usage
 ## Running the project
 
 Run the [index.html](https://github.com/mylifebuglife/adam-linearregression/blob/master/index.html) and the results will be visualised in the form of scatter plot and Upon moving the mouse over single dots their respective coordinates should be displayed in a small popping up window.
